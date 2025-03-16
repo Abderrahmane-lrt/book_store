@@ -151,3 +151,183 @@ section.famous-book {
     align-items: center;
 
 }
+
+
+.section-blue {
+    padding: 50px 20px;
+    margin-top: 20px;
+    background-color: #F6FCFC;
+    height: 350px;
+}
+
+.title {
+    font-size: 50px;
+    color: #000;
+}
+
+.text {
+    color: #6c757d;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    background-color: #F6FCFC;
+    font-size: 16px;
+}
+.send {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: red;
+}
+.send i {
+    margin-left: 10px;
+}
+
+.box {
+    position: relative;
+    color: white;
+}
+.box img {
+    width: 100%;
+    height:430px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.image-text {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+
+}
+.rd-btn {
+    position: absolute;
+    bottom: 180px;
+    left: 220px;
+    color: white;
+    opacity: 0.7;
+    padding: 10px 30px;
+    border: 1px solid white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.rd-btn:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+footer {
+    background: linear-gradient(to right,#fddfd3, #FBFCFF, #fddfd3);
+    padding: 100px 0;
+    margin-top: 100px;
+}
+
+.ft-logo img {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    margin-top: -110px;
+}
+
+.descr {
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+}
+
+.icons{
+    color:red;
+    font-size: 40px; 
+    margin-top: 15px;
+    display: flex;
+    gap :40px;
+}
+
+.ft-links h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ft-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ft-links li {
+    margin-bottom: 10px;
+}
+
+.ft-links a {
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+}
+.ft-links a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.ft-news h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.news-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#latest{
+    margin-top: -35px;
+}
+
+.news-box img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.news-content h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color :#FE7663
+}
+
+.news-content p {
+    font-size: 14px;
+    color: rgb(65, 64, 64);
+    margin-bottom: 0;
+}
+
+
+.ft-bottom {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.ft-bottom p {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.ft-bottom a {
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.ft-bottom a:hover {
+    color: black;
+}
